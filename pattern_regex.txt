@@ -1,0 +1,7 @@
+pattern regex untuk match string dengan escaped character
+
+> 	\"(?:[^"\\]|\\.)*\"
+
+dan jika hanya ingin match pada awal string maka...
+
+> 	^\"(?:[^"\\]|\\.)*\"
