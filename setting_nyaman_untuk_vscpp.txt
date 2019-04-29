@@ -1,0 +1,7 @@
+Direktori output untuk semua konfigurasi dan platform
+
+$(SolutionDir)bin\$(Platform)\$(Configuration)\
+
+Direktori intermediate untuk semua konfigurasi dan platform
+
+$(SolutionDir)bin\intermediates\$(Platform)\$(Configuration)\
